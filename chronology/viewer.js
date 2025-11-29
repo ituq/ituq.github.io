@@ -4,6 +4,7 @@ document.querySelector("#twenty").elems = ["IMG_1205-Edit-2.jpeg","IMG_0036-Pano
 document.querySelector("#twentyone").elems= ["DSCF0164-Edit.jpeg","DSCF0229.jpeg","DSC02830-Edit-2.jpeg"];
 document.querySelector("#twentytwo").elems = ["IMG_0292.jpeg","IMG_0296-2.jpeg"];
 document.querySelector("#twentythree").elems= ["DSC01474-Edit.jpeg", "DSC01191-Edit-2.jpeg", "DSC03647-Edit.jpeg", "DSC03641-Edit.jpeg", "DSC04554-HDR-Edit.jpeg", "DSC02946-HDR-Edit.jpeg"];
+document.querySelector("#twentyfive").elems = ["2025/DSC06169.jpeg", "2025/DSC06722-Edit.jpeg", "2025/DSC06824.jpeg", "2025/DSC06892_edit.jpeg", "2025/DSC06973.jpeg", "2025/mmmmm.jpeg"];
 document.querySelectorAll(".year").forEach((year)=>{
   year.addEventListener("click", (e)=>{
     addPhotos(e.target.elems)
